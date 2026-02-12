@@ -7,7 +7,6 @@ const check=(num)=>{
     else
     return "odd"
 }
-
 console.log(check(4));
 console.log(check(7));
 console.log(check(0));
@@ -27,7 +26,6 @@ function evaluateResult(marks) {
         return "Fail";
     }
 }
-
 console.log(evaluateResult(75));   
 console.log(evaluateResult(40));   
 console.log(evaluateResult(120));  
@@ -46,7 +44,6 @@ const findMax = (a, b, c) => {
         return c;
     }
 };
-
 console.log(findMax(10, 25, 15)); 
 console.log(findMax(5, 3, 8));    
 console.log(findMax(9, 9, 2));    
@@ -61,7 +58,6 @@ function sumToN(n) {
     }
     return sum;
 }
-
 console.log(sumToN(5));   
 console.log(sumToN(10));  
 
@@ -89,7 +85,6 @@ function countDigits(num) {
     }
     return count;
 }
-
 console.log(countDigits(1234));   
 console.log(countDigits(9));      
 console.log(countDigits(10000));
@@ -105,7 +100,6 @@ function reverseNumber(num) {
     }
     return reversed;
 }
-
 console.log(reverseNumber(1234)); 
 console.log(reverseNumber(500));  
 console.log(reverseNumber(91));   
@@ -120,10 +114,9 @@ function factorial(n) {
     }
     return result;
 }
-
-console.log(factorial(5)); // 120
-console.log(factorial(3)); // 6
-console.log(factorial(1)); // 1
+console.log(factorial(5)); 
+console.log(factorial(3)); 
+console.log(factorial(1)); 
 
 
 // Prime Validator
@@ -139,19 +132,17 @@ function isPrime(num) {
     }
     return true;  
 }
-
 console.log(isPrime(7));   
 console.log(isPrime(10));  
 console.log(isPrime(2)); 
 
 
-//Pattern Builder — Star Triangle
+//Pattern Builder
 function printPattern(n) {
 
     for (let i = 1; i <= n; i++) {
         let row = "";
-
-        for (let j = 1; j <= i; j++) {
+     for (let j = 1; j <= i; j++) {
             row = row + "*";
         }
         console.log(row);
